@@ -6,8 +6,23 @@ body {
 
 .header {
     display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
 }
 
 .logo {
     margin-right: auto;
+    font-weight: 700;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding-right: 80px;
 }
