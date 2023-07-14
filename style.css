@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 18px;
+    margin-bottom: 100px;
 }
 
 ul {
@@ -34,3 +35,9 @@ img {
     width: 250px;
     height: 250px;
 }
+
+.column1 {
+    display: flex;
+    align-items: center;
+}
+
