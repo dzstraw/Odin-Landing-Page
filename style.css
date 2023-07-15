@@ -39,17 +39,23 @@ img {
 .column1 {
     display: flex;
     align-items: center;
+    gap: 20px;
+    justify-content: center;
 }
 
 .main-text {
     font-weight: 800;
     font-size: 48px;
     color: #F9FAF8;
+    max-width: 500px;
+    margin-bottom: 5px;
 }
 
 .sub-text {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 550px;
+    margin-bottom: 5px;
 }
 
 button {
@@ -59,4 +65,15 @@ button {
     border-radius: 7px;
     padding: 5px 20px;
     border: 1px #3882F6;
+}
+
+.divider {
+    flex-wrap: wrap;
+    
+}
+
+.chicago {
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 6px 1px black;
 }
