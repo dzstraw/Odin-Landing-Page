@@ -48,7 +48,7 @@ img {
 
 .column1 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     justify-content: center;
 }
@@ -94,6 +94,13 @@ button {
     flex-direction: column;
     background-color: white;
     color: black;
+}
+
+.random {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    justify-content: center;
 }
 
 .nature {
