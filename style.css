@@ -41,3 +41,22 @@ img {
     align-items: center;
 }
 
+.main-text {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    color: white;
+    font-weight: bolder;
+    background: #3882F6;
+    border-radius: 7px;
+    padding: 5px 20px;
+    border: 1px #3882F6;
+}
