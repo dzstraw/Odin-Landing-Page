@@ -32,8 +32,8 @@ ul {
 
 img {
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .container {
@@ -94,7 +94,6 @@ button {
     flex-direction: column;
     background-color: white;
     color: black;
-    align-items: center;
 }
 
 .random {
@@ -102,19 +101,24 @@ button {
     font-size: 36px;
     font-weight: 800;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .images {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    align-items: center;
-    height: 300px;
+    gap: 40px;
 }
 
-.info {
-    max-width: 100px;
+.nature {
+    margin-bottom: 10px;
 }
+
+.text {
+    max-width: 150px;
+    text-align: center;
+}
+
 
 
 .column3 {
