@@ -127,7 +127,26 @@ button {
 .column3 {
     background-color: #E5E7EB;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    max-width: 500px;
+}
+
+.speaker {
+    display: flex;
+    font-weight: bolder;
+    max-width: 250px;
+    margin-left: 50%;
+}
+
 
 .column4 {
     color: black;
