@@ -30,11 +30,10 @@ ul {
     padding-right: 80px;
 }
 
-
 img {
     object-fit: cover;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
 
 .container {
@@ -94,6 +93,7 @@ button {
     flex-direction: column;
     background-color: white;
     color: black;
+    align-items: center;
 }
 
 .random {
@@ -103,15 +103,18 @@ button {
     justify-content: center;
 }
 
-.nature {
-    object-fit: cover;
-    width: 175px;
-    height: 175px;
-}
-
 .images {
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 100vh;
 }
+
+.info {
+    max-width: 100px;
+}
+
 
 .column3 {
     background-color: #E5E7EB;
