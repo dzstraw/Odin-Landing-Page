@@ -187,3 +187,10 @@ img {
     font-size: 14px;
 }
 
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
