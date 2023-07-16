@@ -157,6 +157,10 @@ button {
 }
 
 .bluebox {
+    border: 1px #3882F6;
+    border-radius: 5px;
+    background-color: #3882F6;
     display: flex;
     gap: 100px;
+    padding: 25px 50px;
 }
