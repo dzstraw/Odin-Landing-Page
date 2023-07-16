@@ -89,6 +89,7 @@ button {
 }
 
 .column2 {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -106,9 +107,9 @@ button {
 .images {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
-    height: 100vh;
+    height: 300px;
 }
 
 .info {
