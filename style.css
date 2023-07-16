@@ -155,3 +155,8 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.bluebox {
+    display: flex;
+    gap: 100px;
+}
