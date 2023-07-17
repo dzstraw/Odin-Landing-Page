@@ -4,6 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -44,6 +46,7 @@ img {
 .column1, .column2, .column3 {
     height: 300px;
 }
+
 
 .column4 {
     height: 250px;
